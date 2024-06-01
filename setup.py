@@ -44,11 +44,12 @@ def read(fname):
     return content
 
 setup(
-    name='snownlp',
-    version='0.12.3',
+    name='snownlp-pro',
+    version='1.12.3',
     description='Python library for processing Chinese text',
-    author='isnowfy',
-    url='https://github.com/isnowfy/snownlp',
+    author='yanjlee',
+    author_email="yanjlee@163.com",
+    url='https://github.com/yanjlee/snownlp',
     packages=find_packages(exclude=('test*', )),
     classifiers=[
         'Development Status :: 3 - Alpha',
